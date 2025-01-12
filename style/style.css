@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    font-family: "Work Sans", serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.btn{
+    color: white;
+    font-size: 22px;
+    background-color: #52C303;
+    padding: 21px 32px;
+    border-radius: 8px;
+    border: none;
+}
+
+
+
+#hero{
+    /* background-image: url("../assets/hero-bg.png"); */
+    background: linear-gradient(0deg, rgb(9, 9, 9) 2.884%,rgba(16, 16, 16, 0) 101.034%), url("../assets/hero-bg.png");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.hero-content{
+    width: 818px;
+}
+.hero-subtitle{
+    color: white;
+    opacity: 0.8;
+    font-size: 25px;
+    margin-bottom: 13px;
+}
+.hero-title{
+    color: white;
+    font-size: 51px;
+    margin-bottom: 20px;
+}
+.hero-description{
+    color: white;
+    opacity: 0.7; 
+    font-size: 14px;
+    margin-bottom: 26px;
+}

@@ -17,6 +17,8 @@ body{
 
 
 
+/* hero section style */
+
 #hero{
     /* background-image: url("../assets/hero-bg.png"); */
     background: linear-gradient(0deg, rgb(9, 9, 9) 2.884%,rgba(16, 16, 16, 0) 101.034%), url("../assets/hero-bg.png");
@@ -50,3 +52,8 @@ body{
     font-size: 14px;
     margin-bottom: 26px;
 }
+
+
+
+/* section section style */
+

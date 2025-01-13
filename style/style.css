@@ -17,7 +17,7 @@ body{
 
 
 
-/* hero section style */
+/* banner/hero section style */
 
 #hero{
     /* background-image: url("../assets/hero-bg.png"); */
@@ -55,5 +55,76 @@ body{
 
 
 
-/* section section style */
+/* Card Box/section section style */
+
+.card-box{
+    width: 1056px;
+    text-align: center;
+    margin: 20px auto;
+}
+.box-subtitle{
+    font-size: 20px;
+    color: #101010;
+    margin-bottom: 16px;
+}
+.box-title{
+    font-size: 38px;
+    margin-bottom: 32px;
+}
+
+.box-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 19px;
+}
+.box-contain{
+    margin-bottom: 48px;
+}
+.box-img{
+    margin-bottom: 25px;
+}
+.card-title {
+    font-size: 19px;
+    padding: 11px 25px;
+    border-radius: 8px;
+    background-color: #52C30326;
+}
+.card-des{
+    font-size: 32px;
+    margin-top: 19px;
+    gap: 20;
+}
+.card-contant {
+    font-size: 14px;
+    margin-top: 19px;
+}
+
+
+
+/* footer section style */
+
+.footer-container {
+    text-align: center;
+}
+.footer-title {
+    font-size: 38px;
+    margin-bottom: 19px;
+}
+.footer-subtitle {
+    font-size: 19px;
+    margin-bottom: 62px;
+}
+.follow{
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+footer{
+    /* background-image: url(../assets/social-bg.png); */
+    background-size: cover;
+    background-position: center;
+    padding: 105px 440px;
+    margin-top: 30px;
+    background-color:cadetblue;
+}
 

@@ -31,6 +31,7 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
+    border-radius: 0 0 10px 10px;
 }
 .hero-content{
     width: 818px;
@@ -102,6 +103,40 @@ body{
 
 
 
+/* about section style */
+
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 50px 0;
+}
+.about-contain {
+    padding: 105px 42px;
+}
+.about-title{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 19px;
+}
+.about-subtitle{
+    font-size: 19px;
+    color: #101010;
+    margin-bottom: 57px;
+}
+.about-follow{
+    font-size: 25px;
+    margin-bottom: 49px;
+}
+.about-leftimg{
+    width: 100%;
+    border-radius:0 10px 10px 0;
+}
+
+
+
+
 /* footer section style */
 
 .footer-container {
@@ -126,5 +161,6 @@ footer{
     padding: 105px 440px;
     margin-top: 30px;
     background-color:cadetblue;
+    border-radius: 10px 10px 0 0;
 }
 
